@@ -11,7 +11,7 @@ function PageTransitions() {
             currentButton[0].className = currentButton[0].className.replace('active-btn', '');
             this.className += ' active-btn';
         })
-    }   
+    }
 
     allSections.addEventListener('click', (e) => {
         const id = e.target.dataset.id;
