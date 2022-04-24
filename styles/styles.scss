@@ -65,21 +65,30 @@ section{
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: rgb(168, 240, 218);
 }
 
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: rgb(210, 235, 190);
 }
 
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: aqua;
 }
 
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: #27AE60;
+}
+
+.active-btn{
+    display: block;
+    
 }
 
 // controls
